@@ -1,0 +1,28 @@
+/* 요소 선택자 */
+h1 {
+    color: blue;
+  }
+  
+  p {
+    color: grey;
+  }
+  
+  a {
+    color: red;
+  }
+  
+  /* ID 선택자 */
+  /* #{id} */
+  #id-h1 {
+    color: gold;
+  }
+  
+  #id-p {
+    color: chocolate;
+  }
+  
+  /* class 선택자 */
+  .profile-box {
+    color: purple;
+    background-color: skyblue;
+  }

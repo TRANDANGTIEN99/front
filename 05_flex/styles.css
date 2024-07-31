@@ -1,0 +1,68 @@
+.container-flex {
+    background-color: skyblue;
+    width: 590px;
+    height: 300px;
+    box-sizing: border-box;
+  
+    /* 축을 따라서 요소를 배치한다. */
+    display: flex;
+    /* 축의 방향을 결정한다. */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+  
+    /* 공간을 넘어서는 요소들을 어떻게 할지 */
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+  }
+  
+  /* 주축의 방향으로 요소를 
+  어떻게 정렬 할 것인지 */
+  .justify-content {
+    /* 정렬 */
+    justify-content: start;
+    justify-content: center;
+    justify-content: end;
+  
+    /* 공간 재배치 */
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+  }
+  
+  /* 차축의 방향으로 요소들을
+  어떻게 정렬 할 것인지 */
+  .align-items {
+    /* 높이가 고정되어 있으면 작동 안함 */
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+  }
+  
+  .align-content {
+    align-content: start;
+    align-content: end;
+    align-content: center;
+  
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+  }
+  
+  .flex-center {
+    background-color: aqua;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .box {
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+  }

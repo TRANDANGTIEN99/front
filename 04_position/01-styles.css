@@ -1,0 +1,76 @@
+.box {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+  }
+  
+  /* relative */
+  .relative {
+    background-color: green;
+    /* 상대적으로 */
+    position: relative; 
+    /* 
+      원래 위치에서 
+      top, left, bottom, right 
+      만큼 이동한다.
+    */
+    top: 75px;
+    left: 75px;
+  }
+  
+  .absolute {
+    color: black;
+    background-color: yellow;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  .big-box {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+  }
+  
+  /* 메뉴바 예시 */
+  #menu-item {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+  
+  }
+  
+  #menu-next {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+    border-radius: 50%;
+    background-color: white;
+  
+    position: absolute;
+    top: 10px;
+    right: -40px;
+  }
+  
+  .fixed {
+    background-color: red;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .sticky {
+    background-color: cadetblue;
+    position: sticky;
+    left: 50px;
+    bottom: 150px;
+  }

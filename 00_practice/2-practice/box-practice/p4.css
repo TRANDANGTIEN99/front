@@ -1,0 +1,28 @@
+#login-container {
+    width: 380px;
+    /* height: 175px; */
+    border: 0.5px solid lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #login-greeting {
+    font-size: small;
+  }
+  
+  #login-big-button {
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    height: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px 30px;
+  }
+  
+  #login-menu-container {
+    font-size: small;
+  }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1> World!!!</h1> -->
+    <!-- My name is Tien -->
+      <!-- Headings: 문단 제목들 -->
+    <!-- # -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <h3>Heading 요소는 크게 쓰기 
+      위함이 아니라 제목임을 
+      표현하기 위한 요소다.
+      개행문자를 포함해도 추가되지 않는다.
+    </h3>
+
+    <!-- Paragraph: 문단 -->
+    그냥 써도 글로 보이기는 하나 문단은 아니다.
+    <h1>제목 1</h1>
+    <p>제목 1의 문단 내용</p>
+    <h2>제목 2</h2>
+    <br>
+    <p>제목 2의 문단 내용</p>
+
+    <!-- 개행문자 + 스페이스 -->
+    <p>
+      Lorem ipsum<br>
+       dolor&nbsp;&nbsp;&nbsp;&nbsp; sit amet 
+      consectetur, adipisicing elit.
+       Quae inventore quaerat 
+       voluptatibus delectus nemo 
+       officiis perspiciatis unde 
+       ad iste! Officiis blanditiis 
+       architecto ullam voluptatem unde voluptates mollitia amet est cum!
+    </p> 
+    <!-- 요소 또는 내용간의 간격 -->
+    <!-- 조정을 위해 사용하지 말것 -->
+
+    <!-- List: 목록 -->
+    <h3>오늘 할 일</h3>
+    <!-- Unordered List: 순서가 없는 목록 -->
+    <ul>
+      <!-- List Item: 목록 아이템 -->
+      <li>OOP 공부</li>
+      <li>1일 1문제</li>
+      <li>HTML 연습</li>
+    </ul>
+    <!-- Ordered List: 순서가 있는 목록 -->
+    <h3>아침 만들기</h3>
+    <ol>
+      <li>식빵 굽기</li>
+      <li>치즈 올리기</li>
+      <li>계란 후라이 올리기</li>
+    </ol>
+
+    <!-- Image: 이미지 -->
+    <h3>물고기 그림</h3>
+    <!-- src로 이미지를 지정 -->
+    <img src="fish.png" >
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <!-- alt로 대체 텍스트
+    (이미지 사용할 수 없는 상황에서 대신 사용) -->
+    <img src="null.png" alt="대체 텍스트">
+  
+    <!-- Anchor: 링크 -->
+    <h3>Links</h3>
+    <a href="https://google.com">Google</a>
+    <p>Học lập trình <i>Html & css</i> từ cơ bản đến nâng cao</p>
+
+    <a href="https://naver.com" target="_blank">Naver</a>
+    <br>
+    <a href="https://google.com">
+      <img src="fish.png">
+    </a>
+    <br>
+
+    <!-- division, span -->
+    <div>
+      <h3>Alex</h3>
+      <p><span>Alex</span>'s profile</p>
+    </div>
+    <div>
+      <h3>Brad</h3>
+      <p><span>Brad</span>'s profile</p>
+    </div>
+
+    <!-- Form: (사용자가 데이터를 입력하는) 양식 -->
+    <form>
+      <h3>Form 사용해보기</h3>
+      <div>
+        <!-- 사용자가 사용하기 편하게 해주는 요소 -->
+        <label>
+          이름:
+          <input type="text" name="name">
+        </label>
+      </div>
+      <div>
+        <label for="age-input">나이:</label>
+        <input type="text" name="age" id="age-input">
+      </div>
+      <div>
+        전공:
+        <input type="text" name="major">
+      </div>
+      <div>
+        성별
+        <label for="male">남: </label>
+        <input type="radio" name="gender" value="M" id="male">
+        <label for="female">여: </label>
+        <input type="radio" name="gender" value="F" id="female">
+      </div>
+      <input type="submit" value="GO!!!">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <!-- containers -->
+  <div class="container bg-primary">
+    Hello Grid Container
+  </div>
+  <div class="container-fluid bg-secondary">
+    Hello Grid Fluid
+  </div>
+
+  <!-- Grid의 시작 -->
+  <hr>
+  <!-- Container를 만든다. -->
+  <div class="container-fluid bg-primary-subtle">
+    <!-- 최대 전부 한줄에 담길 요소들을 넣어줄 row를 만든다. -->
+    <div class="row">
+      <!-- 균등하게 만들 요소들을 col으로 만든다. -->
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+    </div>
+    <div class="row">
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+    </div>
+    <div class="row">
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+      <div class="col border border-black border-3">col</div>
+    </div>
+  </div>
+  <hr>
+  <!-- col-* -->
+  <div class="container-fluid text-bg-primary">
+    <div class="row">
+      <!-- row 하나를 12칸으로 생각하면 -->
+      <!-- col-x는 x개의 칸을 차지하게 된다. (1 ~ 12) -->
+      <div class="col-2 border border-black border-3">col-2</div>
+      <div class="col-6 border border-black border-3">col-6</div>
+      <div class="col border border-black border-3">col</div>
+    </div>
+    <div class="row">
+      <div class="col-2 border border-black border-3">col</div>
+      <div class="col-2 border border-black border-3">col-2</div>
+      <div class="col-6 border border-black border-3">col-6</div>
+      <div class="col-2 border border-black border-3">col</div>
+    </div>
+    <hr>
+    <div class="row">
+      <!-- 12에서 모자라면, 채울 만큼 채우고 비워둔다. -->
+      <div class="col-2 border border-black border-3">col-2</div>
+      <div class="col-6 border border-black border-3">col-6</div>
+      <div class="col-3 border border-black border-3">col-3</div>
+    </div>
+    <hr>
+    <div class="row">
+      <!-- 12를 넘치면 -->
+      <div class="col-4 border border-black border-3">col-4</div>
+      <div class="col-6 border border-black border-3">col-6</div>
+      <div class="col-1 border border-black border-3">col</div>
+      <div class="col-3 border border-black border-3">col-3</div>
+    </div>
+    <hr>
+    <!-- row는 flex고, justify-content 등이 가능하다. -->
+    <div class="row justify-content-center">
+      <div class="col-4 border border-black border-3">col-4</div>
+      <div class="col-6 border border-black border-3">col-6</div>
+      <div class="col-1 border border-black border-3">col</div>
+      <div class="col-3 border border-black border-3">col-3</div>
+    </div>
+  </div>
+
+  <hr>
+  <!-- col간 간격 조정 -->
+  <!-- gutter -->
+  <!-- g{x or y}-0~5 -->
+  <div class="container-fluid text-center">
+    <div class="row gy-5 gx-3">
+      <div class="col-6">
+        <div class="bg-success py-3">간격 벌리기</div>
+      </div>
+      <div class="col-6">
+        <div class="bg-success py-3">간격 벌리기</div>
+      </div>
+      <div class="col-6">
+        <div class="bg-success py-3">간격 벌리기</div>
+      </div>
+      <div class="col-6">
+        <div class="bg-success py-3">간격 벌리기</div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container-fluid">
+    <div class="row gx-0">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="text-bg-primary p-1">col-6-4-3-2</div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="text-bg-secondary p-1">col-6-4-3-2</div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="text-bg-primary p-1">col-6-4-3-2</div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="text-bg-secondary p-1">col-6-4-3-2</div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="text-bg-primary p-1">col-6-4-3-2</div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="text-bg-secondary p-1">col-6-4-3-2</div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 col-12">
+        <h1 class="text-bg-primary">Repositories</h1>
+      </div>
+      <div class="col-md-6 col-12">
+        <h1 class="text-bg-secondary">Dashboard</h1>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

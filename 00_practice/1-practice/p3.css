@@ -1,0 +1,17 @@
+body {
+  width: 300px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#premiere {
+  background-color: lightgrey;
+  font-weight: 550;
+  font-size: large;
+}
+
+* {
+  font-family: "Playwrite AR", cursive;
+}

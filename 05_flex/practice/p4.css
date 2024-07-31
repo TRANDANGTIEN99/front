@@ -1,0 +1,33 @@
+body {
+     margin: 0px;
+   }
+   
+   #top-bar {
+     display: flex;
+     justify-content: space-between;
+     background-color: aquamarine;
+     margin: 0px;
+     padding-left: 40px;
+     padding-right: 50px;
+   }
+   
+   #logo-area {
+     display: flex;
+     align-items: center;
+   }
+   
+   #action-area {
+     display: flex;
+     align-items: center;
+   }
+   
+   .space-right {
+     margin-right: 20px;
+   }
+   
+   #login-button {
+     border: 1px solid black;
+     padding: 4px;
+     text-align: center;
+     border-radius: 4px;
+   }

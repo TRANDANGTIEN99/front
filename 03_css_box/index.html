@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Block Elements -->
+  <h1>Block 요소</h1>
+  <p>
+    본문 요소
+    <h2>제목2 요소</h2>
+    <p>내부 본문 요소</p>
+    <h3>제목3 요소</h3>
+    <form>
+      <input type="text">
+    </form>
+    본문 요소
+  </p>
+
+  <!-- Inline Elements -->
+  <h1>Inline 요소</h1>
+  <p>
+    여기는 본문 요소이고
+    안에 <a href="https://naver.com">링크</a>를 넣을것입니다.
+    <img src="" alt="">
+    <label>이름: <input type="text"></label>
+    그렇다고 <span>줄</span>이 바뀔까요?
+  </p>
+
+  <!-- Box Model -->
+  <h1>Box Model</h1>
+  <div id="box-model">
+    This is a div box
+  </div>
+
+  <div class="box margin-4"></div>
+  <hr>
+  <div class="box margin-short"></div>
+  <hr>
+  <div class="box padding-4">
+    Content
+  </div>
+  <hr>
+  <div class="box padding-4 box-sizing">
+    Content
+  </div>
+  <hr>
+  <div class="box padding-short box-sizing">
+    Box
+  </div>
+
+  <hr>
+
+  <!-- Border -->
+  <h1>Border</h1>
+  <div class="box box-sizing border">
+    Border
+  </div>
+  <hr>
+  <div class="box box-sizing border-short">
+    Border Short
+  </div>
+
+  <hr>
+
+  <!-- Display -->
+  <h1>Display</h1>
+  <p>
+    <div class="box display-inline">asdf</div>
+    <div class="box display-inline">qwer</div>
+    <a class="display-block" href="https://google.com">Google</a>
+    Google link there
+  </p>
+
+  <form>
+    이름
+    <input type="text" class="display-block">
+  </form>
+
+  <hr>
+  
+  <div class="box display-none"></div>
+
+
+</body>
+</html>
